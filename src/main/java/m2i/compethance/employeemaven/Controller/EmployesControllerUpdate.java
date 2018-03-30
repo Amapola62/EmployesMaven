@@ -51,7 +51,7 @@ public class EmployesControllerUpdate extends HttpServlet {
             transaction.commit();
             session.close();
             
-            RequestDispatcher rd = request.getRequestDispatcher("Employesjsp.jsp");
+            RequestDispatcher rd = request.getRequestDispatcher("Employesshow2.jsp");
             rd.forward(request, response);
         }
     }

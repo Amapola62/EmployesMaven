@@ -31,7 +31,7 @@
             </table>
         </form>
         </div>
-        <form action="Employesjsp.jsp" method="POST">
+        <form action="Employesshow1.jsp" method="POST">
             <input type="submit" name="afficherEmployes" value="Afficher"> &nbsp; &nbsp;<br>
         </form>
     </body>

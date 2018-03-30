@@ -57,6 +57,7 @@ public class EmployesControllerAdd extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Insertion réussie :P</h1>");
+            out.println("<a href=EmployesAdd.jsp>Retour</a");
             out.println("</body>");
             out.println("</html>");
         }
