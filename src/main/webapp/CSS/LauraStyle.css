@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 avr. 2018, 12:10:32
+    Author     : Formation
+*/
+body {
+    background-color: bisque;
+}
+
+.datarow {
+    background-color: cadetblue;
+    color : brown;
+    font-size: medium;
+    width: 300px;
+    
+}
+
+.foot {
+    position : absolute;
+    bottom: 0;
+}
+
+label{
+   display: block;
+    text-align: left;
+    width:125px;
+    text-transform: uppercase;
+    color:cadetblue;
+}

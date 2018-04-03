@@ -19,7 +19,7 @@
         <form action="EmployesControllerDelete" method="POST">
         <select name="id">
             <% for (Employesdetails oe : GestionEmployes.getAllEmployes()) {%>
-            <option value="<%= oe.getId()%>"><%= oe.getId()%></option>
+            <option value="<%= oe.getId()%>"><%= oe.getId()+" "+oe.getEname()%></option>
             <% }%>
         </select>
         <input type="submit" name="supprimer" value="Ok">
